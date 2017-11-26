@@ -1,0 +1,50 @@
+{
+    "name": "mygiphysent",
+    "version": "1.0.0",
+    "description": "A magnificent Giphy customized suggester",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js | bunyan",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NoaAvigad/MyGiphySent.git"
+    },
+    "keywords": [
+        "giphy",
+        "suggest",
+        "bot"
+    ],
+    "contributors": [
+        {
+            "name": "Noa Avigad",
+            "email": "avigad.noa@gmail.com"
+        },
+        {
+            "name": "Mauricio Mercado",
+            "email": "me@maumercado.com"
+        }
+    ],
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/NoaAvigad/MyGiphySent/issues"
+    },
+    "homepage": "https://github.com/NoaAvigad/MyGiphySent#readme",
+    "engines": {
+        "node": ">=8.9.1"
+    },
+    "dependencies": {
+        "bunyan": "^1.8.12",
+        "db-migrate": "^0.10.0",
+        "koa": "^2.4.1"
+    },
+    "devDependencies": {
+        "babel-eslint": "^8.0.2",
+        "chai": "^4.1.2",
+        "mocha": "^4.0.1",
+        "nodemon": "^1.12.1",
+        "prettier-eslint": "^8.2.2",
+        "supertest": "^3.0.0"
+    }
+}
