@@ -37,7 +37,8 @@
     "dependencies": {
         "bunyan": "^1.8.12",
         "db-migrate": "^0.10.0",
-        "koa": "^2.4.1"
+        "koa": "^2.4.1",
+        "koa-router": "^7.3.0"
     },
     "devDependencies": {
         "babel-eslint": "^8.0.2",
